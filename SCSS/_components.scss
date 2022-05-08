@@ -1,0 +1,38 @@
+/* ïconos finales de Conocenos, Servicios, Hacete Cliente y Contacto que aparecen al final de cada página"*/
+#iconosFinales, #iconosFinalesIndex {
+    width: 80%;
+    align-items: $centrar;
+    padding: 5px;
+    background-color: none;
+}
+#iconosFinalesContacto, #iconosFinalesIndex {
+    height: 70px;
+    width: 60%;
+    padding: 5px;
+    @include flex-row;
+    justify-content: $between;
+    flex-wrap: wrap;
+}
+.final #iconosFinalesContacto, #iconosFinalesIndex {
+    position: relative;
+    top: 50%;
+}
+/* FOOTER*/
+.footer-flex {
+    @include flex-row;
+    justify-content: $centrar; 
+    align-self: $centrar; margin: 2%; padding: 1%;
+    max-width: 100%; flex-wrap: wrap;
+}
+#textoFooterIndex {
+    @include flex-row;
+    justify-content: $centrar; align-items: $centrar;
+    margin: 0%; padding: 0%;
+    flex-wrap: wrap;
+    font-size: 130%; 
+    font-style: normal; font-variant: normal; font-weight: $negrita;
+    position: relative; top: 70px;
+}
+#textoFooterIndex, #textoFooterContacto {
+max-width: 500px; 
+}
